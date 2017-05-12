@@ -1,0 +1,16 @@
+You may notice the two subdirectories. 
+There are basically two project managed by mix.
+This is the only way to reasonably support command line arguments.
+The process for compiling is as follows:
+ From client directory excute the following command,
+  mix escript.build
+ From server directory execute the following command,
+  mix escript.build
+
+To execute you will need to be in the respective directories and run
+./server
+./client 127.0.0.1
+
+The source code is in the lib directory of each sub-directory (server and client). 
+
+You will need Elixir and Mix to run this application.
